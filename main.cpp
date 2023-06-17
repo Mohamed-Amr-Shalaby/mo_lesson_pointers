@@ -13,7 +13,9 @@ int main() {
 
 
     // Make a for loop that uses the pointer num and prints all numbers in the array
-
+    for (int i=0; i<10;i++){
+        cout << *(num+i) << endl;
+    }
 
 
     /*
